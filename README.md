@@ -1,0 +1,9 @@
+In this thesis, we present a machine learning algorithm designed for forensic handwriting analysis to identify the author. Handwriting analysis, an integral part of forensic science, exploits the distinctive features of an individual's writing style to ascertain their identity. The study includes both traditional forensic methodologies and modern approaches utilizing artificial intelligence (AI).
+
+Our research focuses on the development and implementation of convolutional neural networks (CNNs) and Siamese networks to improve the accuracy and reliability of handwriting identification. The dataset used for training includes diverse samples from multiple individuals, ensuring the robustness and generalization of the models.
+
+The preprocessing phase involves converting handwritten text into digital images, followed by noise reduction and segmentation to isolate individual characters. Feature extraction is performed using CNNs, which are fine-tuned on pre-trained models such as ResNet, AlexNet, and SqueezeNet. The Siamese network architecture, employing contrastive loss, is then used to compare and classify handwriting samples based on learned embeddings.
+
+Experimental results demonstrate the effectiveness of our approach, with the best models achieving high accuracy in both the training and validation phases. The analysis includes learning curves, confusion matrices, and performance metrics such as precision, recall, and F1 score. Comparative evaluations with pre-trained models highlight the superiority of our fine-tuned networks.
+
+The research underscores the potential of machine learning in forensic handwriting analysis, offering significant improvements over traditional methods. Future work will explore further hyperparameter optimizations and dataset expansion to address current limitations and enhance the model's discriminative power.
